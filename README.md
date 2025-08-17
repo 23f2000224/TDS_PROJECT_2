@@ -1,130 +1,78 @@
-# ⚡ Data Analyst Agent — Your AI-Powered Data Companion  
-> Smarter, faster, and more intuitive analysis of your datasets using **Generative AI + Python magic.**  
-> Repository: *Insert your GitHub repo link here*
+# ⚡ Data Analyst Agent 2.0
 
----
+Your AI-powered tool for fast, intuitive dataset analysis with Generative AI & Python.
 
-## 📌 What Is This?
-Meet **Data Analyst Agent 2.0** — an AI-driven assistant that eliminates tedious data crunching.  
-Upload your dataset + queries, and instantly get:  
-✅ Visual reports  
-✅ AI-generated insights  
-✅ Automated workflows  
+Repository: [*Link*](https://github.com/23f2000224/TDS_PROJECT_2)
 
-Perfect for:  
-- Analysts 🧾  
-- Researchers 🔬  
-- Startups & Businesses 📈  
-- Anyone who loves turning raw data into knowledge  
+***
 
----
+## 🚩 Overview
 
-## ✨ Key Highlights  
+Upload data + questions and get:
+- Visual reports
+- AI-generated insights
+- Automated workflows
 
-| Feature                  | Why It’s Awesome 🚀 |
-|---------------------------|----------------------|
-| 🤖 AI-Powered Insights    | Uses Google’s Generative AI to “understand” your data |
-| 📊 Rich Visualizations    | Generates plots with **Seaborn & Matplotlib** |
-| 🌍 Web Scraper Mode       | Fetch live data directly from URLs |
-| 📂 Multi-Format Friendly  | Accepts CSV, Excel, JSON, Parquet, or TXT |
-| 🔄 Ask Many at Once       | Batch processing for multiple questions |
-| 🖥️ Simple-to-Use Interface | Beginner friendly, no steep learning curve |
-| ⚡ Super-Fast Execution   | Optimized for speed + real-time feedback |
+Great for analysts, researchers, businesses, or anyone who works with data.
 
----
+***
 
-## 🚀 Getting Started  
+## ✨ Features
 
-### 1️⃣ Clone the Repo  - git clone https://github.com/your-username/data-analyst-agent.git
-cd data-analyst-agent
+| Feature          | Details                          |
+|------------------|----------------------------------|
+| AI Insights      | Google Generative AI powers analysis |
+| Visualizations   | Seaborn & Matplotlib charts      |
+| Web Scraper      | Import live online data          |
+| Multi-Format     | Supports CSV, Excel, JSON, more  |
+| Batch Q&A        | Ask multiple questions at once   |
+| Easy Interface   | Simple, beginner-friendly        |
+| Fast Execution   | Real-time responses              |
 
-### 2️⃣ Install Requirements  - pip install -r requirements.txt
+***
 
-### 3️⃣ Configure API Keys  
-Create a `.env` file inside the root folder:  
-GEMINI_API_KEY=your_google_api_key
-LLM_TIMEOUT_SECONDS=240
+## 🚀 Quickstart
 
+1. Clone repo: `git clone https://github.com/your-username/data-analyst-agent.git`
+2. Install: `pip install -r requirements.txt`
+3. Add `.env` file with your `GEMINI_API_KEY`
+4. Run: `python -m uvicorn app:app --reload`
+5. Open: `http://localhost:8000/`
 
-### 4️⃣ Start the Application  - python -m uvicorn app:app --reload
+***
 
-Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser 🌐  
+## 🛠 How It Works
 
-## 🧑‍💻 How It Works  
+1. Make a `.txt` file with your questions.
+2. Upload your dataset (optional) and questions file.
+3. Get instant AI insights and charts.
 
-1. **Write Your Questions**  
-   Create a `.txt` file with queries like:  What’s the revenue growth month-over-month?, Find correlation between Age and Income, Show most profitable products...etc
+***
 
-2. **Upload Dataset + Questions File**  
-- Dataset (optional) → CSV, Excel, JSON, Parquet, or TXT  
-- Questions file (required) → Plain text  
+## 🔧 API
 
-3. **Voilà!**  
-- AI processes the queries  
-- Generates insights + summaries  
-- Builds neat visualizations  
+| Method | Endpoint     | Purpose        |
+|--------|--------------|----------------|
+| GET    | `/`          | Open web app   |
+| POST   | `/api`       | Submit analysis|
+| GET    | `/summary`   | App summaries  |
 
----
+***
 
-## 🛠 Tech Behind the Scenes  
+## 📂 Supported Files
 
-### Backend  
-- FastAPI ⚡ → High-performance web server  
-- LangChain 🧠 → Orchestrates LLM interactions  
-- Google Generative AI ✨ → Core AI engine  
-- Pandas + NumPy 📊 → Data wrangling made smooth  
-- Seaborn + Matplotlib 🎨 → Clean, insightful charts  
+CSV, Excel (.xlsx/.xls), JSON, Parquet, TXT
 
-### Frontend  
-- HTML5 + CSS + JavaScript  
-- Bootstrap-inspired modern UI  
+***
 
----
+## 🔒 Security
 
-## 🔧 API Blueprint  
+- Data stays local
+- API keys safely in `.env`
+- Configurable CORS
 
-| Method | Endpoint  | Purpose |
-|--------|-----------|----------|
-| `GET`  | `/`       | Access web app |
-| `POST` | `/api`    | Submit dataset + questions |
-| `GET`  | `/summary`| App diagnostics & summaries |
+***
 
----
+**License:** MIT – free for all uses.
 
-## 📂 File Support  
-
-| Format | Extensions |
-|--------|------------|
-| CSV    | `.csv`     |
-| Excel  | `.xlsx`, `.xls` |
-| JSON   | `.json`    |
-| Parquet| `.parquet` |
-| Text   | `.txt`     |
-
----
-
-## 🎯 Where Can You Use This?  
-
-- 📈 Business Strategy – Sales, KPIs, forecasts  
-- 🔬 Research – Data exploration, hypothesis validation  
-- 🤖 Data Science – Quick EDA, anomaly detection  
-- 📊 Reporting – Automated dashboards  
-
----
-
-## 🔒 Security First  
-- ✅ No cloud storage → All data stays local  
-- ✅ API keys kept safe via `.env`  
-- ✅ Configurable CORS policy for production use  
-
----
-
-## 📜 License  
-
-Licensed under **MIT** – free for personal & commercial use. 
-
-
-
-
-
-  
+[1] https://github.com/23f2000224/TDS_PRO
